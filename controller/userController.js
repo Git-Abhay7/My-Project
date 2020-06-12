@@ -8,8 +8,8 @@ const cloudinary = require("cloudinary").v2;
 const speakeasy = require('speakeasy')
 cloudinary.config({
   cloud_name: "dvkgaefsy",
-  api_key: "856316835694293",
-  api_secret: "xR5_M8BDv1aGrUhHBAyCO9g-y6o"
+  api_key: "85631683569XXXXX",
+  api_secret: "xR5_M8BDv1aGrUhHBAyXXXX"
 });
 
 module.exports = {
