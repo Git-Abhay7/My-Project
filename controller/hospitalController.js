@@ -2,22 +2,16 @@ const hospital = require("../model/hospitalmodel");
 const package=require('../model/packageModel')
 
 const qrCode=require('qrcode')
-//const NodeGeocoder = require("node-geocoder");
-//const user=require('../model/userModel')
+const NodeGeocoder = require("node-geocoder");
+const user=require('../model/userModel')
 const cloudinary = require("cloudinary").v2;
 cloudinary.config({
   cloud_name: "dvkgaefsy",
-  api_key: "856316835694293",
+  api_key: "8563168356XXXXX",
   
-  api_secret: "xR5_M8BDv1aGrUhHBAyCO9g-y6o"
+  api_secret: "xR5_M8BDv1aGrUhHBXXXX"
 });
 
-// var options = {
-//   provider: 'opencage',
-//   httpAdapter: 'https',
-//   apiKey: '7233f6a1343f4c96b7a9e67b4fd9e9dc',
-//   formatter: null
-//   };
 
 module.exports = {
   addHospital: (req, res) => {
